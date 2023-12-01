@@ -2312,7 +2312,11 @@ Start Logo Slider
 **********************************/
 
 /* Slick Slider */
+.slide a {
+  text-align: center;
+  font-size: 16px;
 
+}
 .slick-prev, .slick-next {
   position: absolute;
   top: 35%;
@@ -2404,7 +2408,7 @@ Start Logo Slider
     display: block;
 }
 .slick-slide img {
-  border-radius: 15px;
+  border-radius: 10% 0% 0% 10% / 100% 0% 0% 100%;
   box-shadow: 0px 0px 5px black;
     border-color: black;
     border-style: solid;
